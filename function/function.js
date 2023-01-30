@@ -1,7 +1,7 @@
 //rules : must have to "function" + functionName +()+{function task }
 
-function sum(a, b) {
-  console.log(a + b);
+function sum() {
+  console.log(6 + 9);
 }
 
-sum(11, 4);
+sum();
