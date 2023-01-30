@@ -7,7 +7,7 @@ const car = {
   color: "white",
 };
 
-console.log(car.name, car.model);
+// console.log(car.name, car.model);
 
 //  we can also use insite the object a function.
 
@@ -22,4 +22,16 @@ const friend = {
     );
   },
 };
-friend.work();
+// friend.work();
+
+// Insite of Object we can use "this" when normaly used vabiable name, like
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+console.log(person.fullName());
