@@ -10,3 +10,16 @@ const car = {
 console.log(car.name, car.model);
 
 //  we can also use insite the object a function.
+
+const friend = {
+  name: "Mehedi",
+  class: "12",
+  weight: "54 kg",
+  roll: "01",
+  work: function () {
+    console.log(
+      "He is a hard worker person, who try to see himself as frist boy"
+    );
+  },
+};
+friend.work();
