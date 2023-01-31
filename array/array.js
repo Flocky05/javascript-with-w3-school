@@ -9,3 +9,8 @@ console.log(friendsName.length);
 // position the array, as array start with the 0 so every time you have to count the value less one. so use it...
 
 console.log(friendsName[3]);
+
+// position to array value
+
+const postion = friendsName.indexOf("emon");
+console.log(postion);
