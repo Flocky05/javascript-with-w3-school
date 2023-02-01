@@ -14,3 +14,9 @@ let y = new String("rakibul");
 
 console.log(x == y);
 console.log(x === y);
+
+// an object and a string can be compare
+let m = "rakibul";
+let n = new String("rakibul");
+console.log(m == n);
+console.log(m === n);
