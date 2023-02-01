@@ -27,6 +27,9 @@ console.log(sentence, sentence.length);
 // use of slice method is slice(start,end)
 let friends = "mehedi,emon,siam,krishno,kauch,shanto";
 console.log(friends.slice(3, 17));
-//  if you use only one parameter that like as output will be like slice(0, end)
+//  if you use only one parameter that like as output will be like slice(0, end),
 
 console.log(friends.slice(7));
+
+//if you negative value insite of slice method that time answer showed like counting start in the last position.
+console.log(friends.slice(-20, -12));
