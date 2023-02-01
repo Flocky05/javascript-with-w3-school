@@ -35,5 +35,9 @@ console.log(friends.slice(7));
 console.log(friends.slice(-20, -12));
 
 // use in  substring
-let str = "who, are, you, man";
+let str = "who are you man";
 console.log(str.substring(7));
+
+// use replacing strng content in the string that means exchange the position, like
+
+console.log(str.replace("are", "were"));
