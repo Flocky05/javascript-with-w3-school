@@ -33,3 +33,7 @@ console.log(friends.slice(7));
 
 //if you negative value insite of slice method that time answer showed like counting start in the last position.
 console.log(friends.slice(-20, -12));
+
+// use in  substring
+let str = "who, are, you, man";
+console.log(str.substring(7));
