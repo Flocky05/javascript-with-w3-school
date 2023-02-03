@@ -7,3 +7,12 @@ console.log(x + y);
 // add number and string  And the output is just concatanation with two x and z
 let z = "10";
 console.log(x + z);
+
+// two or more string can be multiple and divisiable
+let m = "10";
+console.log(m * z);
+
+// Type of the multiplaction is number , after mul, div compeleting and return a number type
+
+w = m * z;
+console.log(typeof w);
