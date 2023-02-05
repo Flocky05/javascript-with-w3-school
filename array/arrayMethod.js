@@ -7,3 +7,8 @@ console.log(fruits.join("*"));
 // Pop methods, delete from the array last elements
 fruits.pop();
 console.log(fruits);
+
+// added push mehtods that is used for adding element to last
+
+fruits.push("Wood apple");
+console.log(fruits);
