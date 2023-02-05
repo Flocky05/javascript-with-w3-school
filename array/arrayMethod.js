@@ -12,3 +12,8 @@ console.log(fruits);
 
 fruits.push("Wood apple");
 console.log(fruits);
+
+// shift mehtod that is used for removeing element in the array in frist one
+
+fruits.shift();
+console.log(fruits);
