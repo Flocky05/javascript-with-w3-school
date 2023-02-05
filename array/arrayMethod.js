@@ -25,3 +25,8 @@ console.log(fruits);
 
 // array position, some times needs that the position of element :
 console.log(fruits[2]);
+
+//If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
+
+const citrus = fruits.slice(2);
+console.log(citrus);
