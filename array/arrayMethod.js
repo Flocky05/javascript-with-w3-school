@@ -22,3 +22,6 @@ console.log(fruits);
 
 fruits.unshift("Shifedila");
 console.log(fruits);
+
+// array position, some times needs that the position of element :
+console.log(fruits[2]);
