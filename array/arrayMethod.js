@@ -17,3 +17,8 @@ console.log(fruits);
 
 fruits.shift();
 console.log(fruits);
+
+// unshift is used for adding element in the array frist side
+
+fruits.unshift("Shifedila");
+console.log(fruits);
