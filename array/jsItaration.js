@@ -16,3 +16,11 @@ function myMapFunction(value) {
 }
 const newNumbers = numbers.map(myMapFunction);
 console.log(newNumbers);
+
+// filter methods
+
+function myFilterFunction(value) {
+  return value > 10;
+}
+const newValue = numbers.filter(myFilterFunction);
+console.log(newValue);
