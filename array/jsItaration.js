@@ -8,5 +8,11 @@ function myfunction(value, index, array) {
   console.log(array);
   console.log("---------------");
 }
-
 numbers.forEach(myfunction);
+
+// map it's normally create a new array which help you added or multiply each of element in the array
+function myMapFunction(value) {
+  return value + 3;
+}
+const newNumbers = numbers.map(myMapFunction);
+console.log(newNumbers);
