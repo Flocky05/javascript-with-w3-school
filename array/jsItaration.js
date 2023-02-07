@@ -24,3 +24,13 @@ function myFilterFunction(value) {
 }
 const newValue = numbers.filter(myFilterFunction);
 console.log(newValue);
+
+// reduce function that function return  a value not array.
+
+function myReduceFunction(total, value, index, array) {
+  console.log(total);
+  console.log("---------");
+  return total + value * value;
+}
+const newReduceValue = numbers.reduce(myReduceFunction);
+console.log(newReduceValue);
