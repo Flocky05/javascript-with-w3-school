@@ -34,3 +34,7 @@ function myReduceFunction(total, value, index, array) {
 }
 const newReduceValue = numbers.reduce(myReduceFunction);
 console.log(newReduceValue);
+// indexOf function
+const friends = ["mehedi", "emon", "siam", "krishno", "alamin"];
+const friend = friends.indexOf("emon") + 1;
+console.log(friends[1], friend);
