@@ -26,7 +26,6 @@ const newValue = numbers.filter(myFilterFunction);
 console.log(newValue);
 
 // reduce function that function return  a value not array.
-
 function myReduceFunction(total, value, index, array) {
   console.log(total);
   console.log("---------");
@@ -34,7 +33,16 @@ function myReduceFunction(total, value, index, array) {
 }
 const newReduceValue = numbers.reduce(myReduceFunction);
 console.log(newReduceValue);
+
 // indexOf function
 const friends = ["mehedi", "emon", "siam", "krishno", "alamin"];
 const friend = friends.indexOf("emon") + 1;
 console.log(friends[1], friend);
+
+// find function
+
+function myFindFunction(value, index, array) {
+  return value > 18 && value < 45;
+}
+const newFindvalue = numbers.find(myFindFunction);
+console.log(newFindvalue);
