@@ -46,3 +46,8 @@ function myFindFunction(value, index, array) {
 }
 const newFindvalue = numbers.find(myFindFunction);
 console.log(newFindvalue);
+
+//
+cars = ["Saab", "Volvo", "BMW"];
+var cars;
+console.log(cars);
