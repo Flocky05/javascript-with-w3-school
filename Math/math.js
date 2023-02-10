@@ -17,3 +17,7 @@ console.log(Math.sign(-3));
 console.log(Math.sign(0));
 console.log(Math.sign(4));
 console.log(Math.sign());
+
+// pow function use as power  frsit number is base and 2nd numbner is power
+
+console.log(Math.pow(5, 2));
