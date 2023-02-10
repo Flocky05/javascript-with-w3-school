@@ -41,3 +41,7 @@ console.log(Math.max(1, 2, 3, 4, 22, 454, 3422, 231));
 // min function
 
 console.log(Math.min(1, 2, 3, 4, 22, 454, 3422, 231));
+
+// random
+const m = parseInt(Math.random() * 10);
+console.log(m);
