@@ -34,3 +34,7 @@ console.log(Math.abs(-43));
 console.log(Math.sin(45));
 console.log(Math.cos(45));
 console.log(Math.tan(45));
+
+// max function
+
+console.log(Math.max(1, 2, 3, 4, 22, 454, 3422, 231));
