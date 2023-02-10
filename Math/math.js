@@ -48,3 +48,6 @@ console.log(m);
 
 // log function
 console.log(Math.log(2));
+
+// log2 function
+console.log(Math.log2(2));
