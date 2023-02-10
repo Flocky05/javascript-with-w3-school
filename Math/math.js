@@ -24,3 +24,7 @@ console.log(Math.pow(5, 2));
 
 // sqrt function use as squree
 console.log(Math.sqrt(45));
+
+// Math.abs() fucntion use as postive value for
+
+console.log(Math.abs(-43));
