@@ -28,3 +28,9 @@ console.log(Math.sqrt(45));
 // Math.abs() fucntion use as postive value for
 
 console.log(Math.abs(-43));
+
+// Math.sin() function
+
+console.log(Math.sin(45));
+console.log(Math.cos(45));
+console.log(Math.tan(45));
