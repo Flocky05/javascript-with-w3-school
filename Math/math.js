@@ -11,3 +11,9 @@ console.log(Math.floor(x / y));
 
 console.log(Math.trunc(4.9));
 console.log(Math.trunc(4.1));
+
+// sign(x) returns if x is negative=-1 , null=0 or postive=1
+console.log(Math.sign(-3));
+console.log(Math.sign(0));
+console.log(Math.sign(4));
+console.log(Math.sign());
