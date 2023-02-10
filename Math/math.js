@@ -21,3 +21,6 @@ console.log(Math.sign());
 // pow function use as power  frsit number is base and 2nd numbner is power
 
 console.log(Math.pow(5, 2));
+
+// sqrt function use as squree
+console.log(Math.sqrt(45));
