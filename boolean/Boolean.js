@@ -12,3 +12,7 @@
 let m = 6;
 let n = "6";
 console.log(m == n);
+
+// but if we use === in that equation that time show false couse of here cheack two type value and data type. but here data type is not same so here output will be false
+
+console.log(m === n);
