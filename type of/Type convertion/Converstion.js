@@ -12,3 +12,12 @@ console.log(Number(x));
 
 let name = "Rakibul";
 console.log(Number(name));
+
+// string to interger value convertion like:
+let a = "12.263";
+console.log(parseInt(a));
+
+// string or any type of number to float from convertion
+
+let b = "1245.2";
+console.log(parseFloat(b));
