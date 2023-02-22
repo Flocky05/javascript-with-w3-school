@@ -3,3 +3,12 @@
 let pi = "3.1416";
 
 console.log(typeof Number(pi));
+
+// If anyone try convert a emty string to number the output will be 0
+let x = "";
+console.log(Number(x));
+
+// string will be any name that time result will be NaN couse of NaN is also a number type, example
+
+let name = "Rakibul";
+console.log(Number(name));
