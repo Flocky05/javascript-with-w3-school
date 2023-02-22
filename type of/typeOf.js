@@ -15,3 +15,10 @@ console.log(typeof friends);
 // null is also a Object type of data type
 let m = null;
 console.log(typeof m);
+
+// use function
+
+function myname(array) {
+  console.log(array.constructor.toString() == Array);
+}
+myname([1, 2, 3, 4]);
