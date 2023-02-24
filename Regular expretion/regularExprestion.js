@@ -11,3 +11,7 @@ console.log(text.search(/quas/i));
 
 let text2 = "I love you";
 console.log(text2.replace(/love/i, "hate"));
+
+// golovaly change the value you have to need you ig
+
+console.log(text.replace(/at/gi, "fuck"));
