@@ -2,3 +2,7 @@
 
 let line = "I am Rakibul Islam";
 console.log(line.search(/rakibul/i));
+
+let text =
+  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quam inventore rerum, ut, illo delectus fuga ab et at aut dignissimos rem. Qui doloremque culpa nemo. Dignissimos iste quidem iusto blanditiis laborum officiis voluptas animi voluptatum corporis non ratione, repudiandae culpa voluptate quas ducimus et repellat hic dolore ex enim quaerat quia repellendus tempora! Quos minus molestias architecto. Repellendus, est.";
+console.log(text.search(/quas/i));
