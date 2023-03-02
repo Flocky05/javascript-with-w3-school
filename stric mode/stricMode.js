@@ -9,3 +9,5 @@
 "use strict";
 x = 3.1416;
 console.log(x);
+
+// strict means you can't change the value easly so that if you use strict method
