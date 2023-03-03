@@ -1,2 +1,6 @@
-let x = [1, 2, 3, 4, 5, 6];
-console.log(parseInt(Math.random(x * 10)));
+let x = parseInt(Math.random() * 10);
+if (x <= 6) {
+  console.log(x);
+} else {
+  console.log(4);
+}
