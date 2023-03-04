@@ -4,3 +4,5 @@ if (x <= 6) {
 } else {
   console.log(4);
 }
+
+// do no do this
