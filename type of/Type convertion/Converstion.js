@@ -21,3 +21,4 @@ console.log(parseInt(a));
 
 let b = "1245.2";
 console.log(parseFloat(b));
+// some time we have to need convertion of integer that time done some task that is parseInt
