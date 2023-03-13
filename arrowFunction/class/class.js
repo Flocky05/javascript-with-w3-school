@@ -17,3 +17,5 @@ class Car {
     this.year = year;
   }
 }
+
+// class is the most important section for programming
