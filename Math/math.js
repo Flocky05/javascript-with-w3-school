@@ -52,3 +52,5 @@ console.log(Math.log(2));
 // log2 function
 console.log(Math.log2(2));
 // my an dkjie
+
+// added math section

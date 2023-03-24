@@ -14,3 +14,6 @@ console.log(friendsName[3]);
 
 const postion = friendsName.indexOf("emon");
 console.log(postion);
+
+// some time array is also important for any code
+// some time array is also important for code
