@@ -17,3 +17,9 @@ fullPrice = price + price * tax;
 /*Always put spaces around operators ( = + - * / ), and after <commas:></commas:*/
 let x = y + z;
 const myArray = ["Volvo", "Saab", "Fiat"];
+
+// Code Indentation
+//Always use 2 spaces for indentation of code blocks:
+function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
