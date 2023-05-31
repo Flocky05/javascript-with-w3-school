@@ -12,3 +12,8 @@ price = 19.9;
 tax = 0.2;
 
 fullPrice = price + price * tax;
+
+// Spaces Around Operators
+/*Always put spaces around operators ( = + - * / ), and after <commas:></commas:*/
+let x = y + z;
+const myArray = ["Volvo", "Saab", "Fiat"];
