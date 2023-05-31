@@ -34,3 +34,9 @@ const person = {
   age: 50,
   eyeColor: "blue",
 };
+// File Extensions
+/* HTML files should have a .html extension (.htm is allowed).
+
+CSS files should have a .css extension.
+
+JavaScript files should have a .js extension.  */
