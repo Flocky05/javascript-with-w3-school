@@ -20,3 +20,15 @@ Provide a single place to look for local variables
 Make it easier to avoid unwanted (implied) global variables
 Reduce the possibility of unwanted re-declarations
 */
+
+// Declare at the beginning
+let firstName, lastName, price, discount, fullPrice;
+
+// Use later
+firstName = "John";
+lastName = "Doe";
+
+price = 19.9;
+discount = 0.1;
+
+fullPrice = price - discount;
