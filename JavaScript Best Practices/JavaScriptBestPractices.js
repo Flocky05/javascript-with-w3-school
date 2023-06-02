@@ -118,3 +118,11 @@ Declaring these types as objects, slows down execution speed, and produces nasty
 let x = "John";             
 let y = new String("John");
 (x === y) // is false because x is a string and y is an object.
+
+/*
+Avoid Using eval()
+The eval() function is used to run text as code. In almost all cases, it should not be necessary to use it.
+
+Because it allows arbitrary code to be run, it also represents a security problem.
+
+*/
