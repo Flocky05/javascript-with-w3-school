@@ -91,3 +91,19 @@ A variable can change its data type:
 
 let x = "Hello";     // typeof x is a string
 x = 5;  
+
+
+/* 
+Use === Comparison
+The == comparison operator always converts (to matching types) before comparison.
+
+The === operator forces comparison of values and type:
+*/
+
+0 == "";        // true
+1 == "1";       // true
+1 == true;      // true
+
+0 === "";       // false
+1 === "1";      // false
+1 === true;     // false
