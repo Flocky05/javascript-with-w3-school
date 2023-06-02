@@ -107,3 +107,14 @@ The === operator forces comparison of values and type:
 0 === "";       // false
 1 === "1";      // false
 1 === true;     // false
+
+
+
+/* Avoid Number, String, and Boolean as Objects
+Always treat numbers, strings, or booleans as primitive values. Not as objects.
+
+Declaring these types as objects, slows down execution speed, and produces nasty side effects:
+*/
+let x = "John";             
+let y = new String("John");
+(x === y) // is false because x is a string and y is an object.
