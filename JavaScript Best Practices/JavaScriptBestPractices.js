@@ -79,3 +79,15 @@ const x4 = {};           // new object
 const x5 = [];           // new array object
 const x6 = /()/;         // new regexp object
 const x7 = function(){}; // new function object
+
+
+/* Beware of Automatic Type Conversions
+JavaScript is loosely typed.
+
+A variable can contain all data types.
+
+A variable can change its data type:
+*/
+
+let x = "Hello";     // typeof x is a string
+x = 5;  
