@@ -49,3 +49,8 @@ let discount = 0;
 let fullPrice = 0,
 const myArray = [];
 const myObject = {};
+
+/*Declare Objects with const
+Declaring objects with const will prevent any accidental change of type: */
+let car = {type:"Fiat", model:"500", color:"white"};
+car = "Fiat";      // Changes object to string
