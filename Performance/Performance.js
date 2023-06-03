@@ -22,3 +22,12 @@ If you expect to access a DOM element several times, access it once, and use it 
 */
 const obj = document.getElementById("demo");
 obj.innerHTML = "Hello";
+
+/*
+Reduce DOM Size
+Keep the number of elements in the HTML DOM small.
+
+This will always improve page loading, and speed up rendering (page display), especially on smaller devices.
+
+Every attempt to search the DOM (like getElementsByTagName) will benefit from a smaller DOM.
+*/
