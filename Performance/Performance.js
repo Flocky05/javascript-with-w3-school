@@ -31,3 +31,12 @@ This will always improve page loading, and speed up rendering (page display), es
 
 Every attempt to search the DOM (like getElementsByTagName) will benefit from a smaller DOM.
 */
+
+/*
+Avoid Unnecessary Variables
+Don't create new variables if you don't plan to save values.
+
+Often you can replace code like this:
+*/
+let fullName = firstName + " " + lastName;
+document.getElementById("demo").innerHTML = fullName;
