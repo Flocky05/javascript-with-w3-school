@@ -47,3 +47,18 @@ Putting your scripts at the bottom of the page body lets the browser load the pa
 
 While a script is downloading, the browser will not start any other downloads. In addition all parsing and rendering activity might be blocked.
 */
+<script>
+window.onload = function() {
+  const element = document.createElement("script");
+  element.src = "myScript.js";
+  document.body.appendChild(element);
+};
+</script>
+
+/*
+Avoid Using with
+Avoid using the with keyword. It has a negative effect on speed. It also clutters up JavaScript scopes.
+
+The with keyword is not allowed in strict mode.
+
+*/
