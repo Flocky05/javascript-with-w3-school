@@ -40,3 +40,10 @@ Often you can replace code like this:
 */
 let fullName = firstName + " " + lastName;
 document.getElementById("demo").innerHTML = fullName;
+
+/*
+Delay JavaScript Loading
+Putting your scripts at the bottom of the page body lets the browser load the page first.
+
+While a script is downloading, the browser will not start any other downloads. In addition all parsing and rendering activity might be blocked.
+*/
