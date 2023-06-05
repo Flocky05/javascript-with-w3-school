@@ -57,3 +57,19 @@ person.firstName = "John";
 person.lastName = "Doe";
 person.age = 50;
 person.eyeColor = "blue";
+
+/*
+JavaScript Objects are Mutable
+Objects are mutable: They are addressed by reference, not by value.
+
+If person is an object, the following statement will not create a copy of person:
+*/
+const person4 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+};
+
+const x = person4;
+x.age = 10; // Will change both x.age and person.age
