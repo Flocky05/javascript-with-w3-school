@@ -17,3 +17,9 @@ undefined
 symbol
 bigint
 */
+
+/*
+Objects are Variables
+JavaScript variables can contain single values:
+*/
+let person = "John Doe";
