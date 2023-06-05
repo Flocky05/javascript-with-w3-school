@@ -34,16 +34,26 @@ An object literal is a list of name:value pairs (like age:50) inside curly brace
 
 The following example creates a new JavaScript object with four properties:
 */
-const person = {
+const person1 = {
   firstName: "John",
   lastName: "Doe",
   age: 50,
   eyeColor: "blue",
 };
 // Spaces and line breaks are not important. An object definition can span multiple lines:
-const person = {
+const person2 = {
   firstName: "John",
   lastName: "Doe",
   age: 50,
   eyeColor: "blue",
 };
+
+/*
+Using the JavaScript Keyword new
+The following example create a new JavaScript object using new Object(), and then adds 4 properties:
+*/
+const person3 = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
