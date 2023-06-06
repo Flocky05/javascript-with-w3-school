@@ -54,3 +54,17 @@ const person = {
 };
 
 delete person.age;
+
+/*
+Nested Objects
+Values in an object can be another object:
+*/
+myObj = {
+  name: "John",
+  age: 30,
+  cars: {
+    car1: "Ford",
+    car2: "BMW",
+    car3: "Fiat",
+  },
+};
