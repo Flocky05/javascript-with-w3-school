@@ -41,3 +41,16 @@ You can add new properties to an existing object by simply giving it a value.
 Assume that the person object already exists - you can then give it new properties:
 */
 person.nationality = "English";
+
+/*
+Deleting Properties
+The delete keyword deletes a property from an object:
+*/
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+};
+
+delete person.age;
