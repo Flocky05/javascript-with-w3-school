@@ -50,3 +50,7 @@ This example uses the toUpperCase() method of the String object, to convert a te
 */
 let message = "Hello world!";
 let x = message.toUpperCase();
+
+person.name = function () {
+  return (this.firstName + " " + this.lastName).toUpperCase();
+};
