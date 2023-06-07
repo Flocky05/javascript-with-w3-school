@@ -22,3 +22,16 @@ In a function, in strict mode, this is undefined.
 In an event, this refers to the element that received the event.
 Methods like call(), apply(), and bind() can refer this to any object.
 */
+
+/*
+Accessing Object Methods
+You access an object method with the following syntax:
+
+objectName.methodName()
+You will typically describe fullName() as a method of the person object, and fullName as a property.
+
+The fullName property will execute (as a function) when it is invoked with ().
+
+This example accesses the fullName() method of a person object:
+*/
+name = person.fullName();
