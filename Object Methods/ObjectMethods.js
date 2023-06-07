@@ -34,4 +34,19 @@ The fullName property will execute (as a function) when it is invoked with ().
 
 This example accesses the fullName() method of a person object:
 */
-name = person.fullName();
+let name = person.fullName();
+
+/*
+Adding a Method to an Object
+Adding a new method to an object is easy:
+*/
+person.name = function () {
+  return this.firstName + " " + this.lastName;
+};
+
+/*
+Using Built-In Methods
+This example uses the toUpperCase() method of the String object, to convert a text to uppercase:
+*/
+let message = "Hello world!";
+let x = message.toUpperCase();
