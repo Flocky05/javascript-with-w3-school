@@ -22,3 +22,20 @@ const person1 = {
 
 document.getElementById("demo").innerHTML =
   person1.name + "," + person1.age + "," + person1.city;
+
+/*
+  Displaying the Object in a Loop
+The properties of an object can be collected in a loop:
+*/
+const person3 = {
+  name: "John",
+  age: 30,
+  city: "New York",
+};
+
+let txt = "";
+for (let x in person3) {
+  txt += person3[x] + " ";
+}
+
+document.getElementById("demo").innerHTML = txt;
