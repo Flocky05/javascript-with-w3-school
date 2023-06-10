@@ -33,3 +33,18 @@ person1.lang = "en";
 
 // Display data from the object:
 document.getElementById("demo").innerHTML = person1.language;
+
+/*
+JavaScript Function or Getter?
+What is the differences between these two examples?
+*/
+const person2 = {
+  firstName: "John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+// Display data from the object using a method:
+document.getElementById("demo").innerHTML = person2.fullName();
