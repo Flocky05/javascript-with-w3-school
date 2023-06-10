@@ -44,10 +44,20 @@ document.getElementById("demo").innerHTML = txt;
 Using Object.values()
 Any JavaScript object can be converted to an array using Object.values():
 */
-const person = {
+const person4 = {
   name: "John",
   age: 30,
   city: "New York",
 };
 
-const myArray = Object.values(person);
+const myArray5 = Object.values(person4);
+
+// added more example
+const person5 = {
+  name: "John",
+  age: 30,
+  city: "New York",
+};
+
+const myArray = Object.values(person5);
+document.getElementById("demo").innerHTML = myArray;
