@@ -48,3 +48,22 @@ const person2 = {
 
 // Display data from the object using a method:
 document.getElementById("demo").innerHTML = person2.fullName();
+
+/*
+Data Quality
+JavaScript can secure better data quality when using getters and setters.
+
+Using the lang property, in this example, returns the value of the language property in upper case:
+*/
+// Create an object:
+const person4 = {
+  firstName: "John",
+  lastName: "Doe",
+  language: "en",
+  get lang() {
+    return this.language.toUpperCase();
+  },
+};
+
+// Display data from the object using a getter:
+document.getElementById("demo").innerHTML = person4.lang;
