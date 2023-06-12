@@ -67,3 +67,11 @@ const person4 = {
 
 // Display data from the object using a getter:
 document.getElementById("demo").innerHTML = person4.lang;
+
+/*
+Why Using Getters and Setters?
+It gives simpler syntax
+It allows equal syntax for properties and methods
+It can secure better data quality
+It is useful for doing things behind-the-scenes
+*/
