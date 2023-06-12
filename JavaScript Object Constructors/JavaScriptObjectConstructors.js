@@ -32,3 +32,11 @@ Methods like call(), apply(), and bind() can refer this to any object.
 // Adding a Property to an Object
 // Adding a new property to an existing object is easy:
 myFather.nationality = "English";
+
+/*
+Adding a Method to an Object
+Adding a new method to an existing object is easy:
+*/
+myFather.name = function () {
+  return this.firstName + " " + this.lastName;
+};
