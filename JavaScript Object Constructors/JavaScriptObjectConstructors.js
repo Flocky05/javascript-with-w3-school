@@ -40,3 +40,9 @@ Adding a new method to an existing object is easy:
 myFather.name = function () {
   return this.firstName + " " + this.lastName;
 };
+
+/*
+Adding a Property to a Constructor
+You cannot add a new property to an object constructor the same way you add a new property to an existing object:
+*/
+Person.nationality = "English";
