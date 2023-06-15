@@ -41,3 +41,13 @@ Maps are Objects
 typeof returns object:
 */
 console.log(typeof fruits);
+
+/*
+Map.forEach()
+The forEach() method invokes a callback for each key/value pair in a Map:
+*/
+let text = "";
+fruits.forEach(function (value, key) {
+  text += key + " = " + value;
+});
+console.log(text);
