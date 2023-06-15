@@ -36,3 +36,20 @@ const myFunction2 = function (a, b) {
 
 let x2 = myFunction(4, 3);
 console.log(x2);
+
+/*
+Function Hoisting
+Earlier in this tutorial, you learned about "hoisting" (JavaScript Hoisting).
+
+Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+
+Hoisting applies to variable declarations and to function declarations.
+
+Because of this, JavaScript functions can be called before they are declared:
+
+myFunction(5);
+
+function myFunction(y) {
+  return y * y;
+}
+*/
