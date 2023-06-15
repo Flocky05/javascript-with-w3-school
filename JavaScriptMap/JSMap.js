@@ -35,3 +35,9 @@ The delete() method removes a Map element:
 */
 console.log(fruits.delete("apples"));
 console.log(fruits);
+
+/*
+Maps are Objects
+typeof returns object:
+*/
+console.log(typeof fruits);
