@@ -27,3 +27,12 @@ const myFunction1 = new Function("a", "b", "return a * b");
 
 let x = myFunction1(5, 3);
 console.log(x);
+
+//we also use that is like bellow this way
+
+const myFunction2 = function (a, b) {
+  return a * b;
+};
+
+let x2 = myFunction(4, 3);
+console.log(x2);
