@@ -16,3 +16,6 @@ const x = (x, y) => x * y;
 
 const x = (x, y) => x * y;
 console.log(x(4, 3));
+
+const y = (x, y) => y + x;
+console.log(y(2, 4));
