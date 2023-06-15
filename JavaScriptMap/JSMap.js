@@ -28,3 +28,10 @@ Map.size
 The size property returns the number of elements in a Map:
 */
 console.log(fruits.size);
+
+/*
+Map.delete()
+The delete() method removes a Map element:
+*/
+console.log(fruits.delete("apples"));
+console.log(fruits);
