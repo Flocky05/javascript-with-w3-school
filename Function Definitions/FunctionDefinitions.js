@@ -1,0 +1,18 @@
+/*
+JavaScript functions are defined with the function keyword.
+
+You can use a function declaration or a function expression.
+
+Function Declarations
+Earlier in this tutorial, you learned that functions are declared with the following syntax:
+
+function functionName(parameters) {
+  // code to be executed
+}
+*/
+let a = 3;
+let b = 4;
+function myFunction(a, b) {
+  return a * b;
+}
+console.log(myFunction(a, b));
