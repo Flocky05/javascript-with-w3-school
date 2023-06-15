@@ -16,3 +16,9 @@ const fruits = new Map([
   ["oranges", 200],
 ]);
 console.log(fruits);
+
+/*
+Map.get()
+The get() method gets the value of a key in a Map:
+*/
+console.log(fruits.get("apples"));
