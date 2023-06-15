@@ -22,3 +22,9 @@ Map.get()
 The get() method gets the value of a key in a Map:
 */
 console.log(fruits.get("apples"));
+
+/*
+Map.size
+The size property returns the number of elements in a Map:
+*/
+console.log(fruits.size);
