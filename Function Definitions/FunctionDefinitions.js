@@ -16,3 +16,14 @@ function myFunction(a, b) {
   return a * b;
 }
 console.log(myFunction(a, b));
+
+/*
+The Function() Constructor
+As you have seen in the previous examples, JavaScript functions are defined with the function keyword.
+
+Functions can also be defined with a built-in JavaScript function constructor called Function().
+*/
+const myFunction1 = new Function("a", "b", "return a * b");
+
+let x = myFunction1(5, 3);
+console.log(x);
