@@ -15,3 +15,11 @@ Example
   let x = "Hello!!";  // I will invoke myself
 })();
 */
+(function () {
+  console.log("My name is rakibul Islam");
+})();
+
+(favNumber = function (x = 20) {
+  console.log("Do you need any taka , I have only " + x + " taka");
+})();
+favNumber(350);
