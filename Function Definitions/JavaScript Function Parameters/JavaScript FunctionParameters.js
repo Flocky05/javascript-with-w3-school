@@ -24,3 +24,5 @@ function myFunction(x, y) {
     y = 2;
   }
 }
+
+// Default Parameter Values
