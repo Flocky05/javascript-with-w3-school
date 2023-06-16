@@ -31,6 +31,9 @@ function myFunction1() {
 Invoking a Function as a Method
 In JavaScript you can define functions as object methods.
 
+This is a common way to invoke a JavaScript function, but not a very good practice.
+Global variables, methods, or functions can easily create name conflicts and bugs in the global object.
+
 The following example creates an object (myObject), with two properties (firstName and lastName), and a method (fullName):
 */
 const myObject = {
@@ -41,3 +44,30 @@ const myObject = {
   },
 };
 console.log(myObject.fullName());
+
+/*
+The fullName method is a function. The function belongs to the object. myObject is the owner of the function.
+
+The thing called this, is the object that "owns" the JavaScript code. In this case the value of this is myObject.
+
+Test it! Change the fullName method to return the value of this:
+*/
+const myObject1 = {
+  firstName: "John",
+  lastName: "Doe",
+  fullName: function () {
+    return this;
+  },
+};
+
+// This will return [object Object] (the owner object)
+console.log(myObject1.fullName());
+
+// Invoking a function as an object method, causes the value of this to be the object itself.
+
+/*
+A constructor invocation creates a new object. The new object inherits the properties and methods from its constructor.
+
+The this keyword in the constructor does not have a value.
+The value of this will be the new object created when the function is invoked.
+*/
