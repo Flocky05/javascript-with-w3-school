@@ -8,10 +8,10 @@ It is common to use the term "call a function" instead of "invoke a function".
 
 It is also common to say "call upon a function", "start a function", or "execute a function".
 */
-function myFunction(a, b) {
+function myFunction2(a, b) {
   return a * b;
 }
-console.log(myFunction(10, 2));
+console.log(myFunction2(10, 2));
 
 /*
 The Global Object
@@ -21,8 +21,23 @@ In a web browser the global object is the browser window.
 
 This example returns the window object as the value of this:
 */
-let x = myFunction(); // x will be the window object
+let x = myFunction1(); // x will be the window object
 
-function myFunction() {
+function myFunction1() {
   return this;
 }
+
+/*
+Invoking a Function as a Method
+In JavaScript you can define functions as object methods.
+
+The following example creates an object (myObject), with two properties (firstName and lastName), and a method (fullName):
+*/
+const myObject = {
+  firstName: "John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+console.log(myObject.fullName());
