@@ -20,3 +20,20 @@ const member = {
 };
 
 let fullName = person.fullName.bind(member);
+
+/*
+Preserving this
+Sometimes the bind() method has to be used to prevent losing this.
+
+In the following example, the person object has a display method. In the display method, this refers to the person object:
+*/
+const person2 = {
+  firstName: "John",
+  lastName: "Doe",
+  display: function () {
+    let x = document.getElementById("demo");
+    x.innerHTML = this.firstName + " " + this.lastName;
+  },
+};
+
+person2.display();
