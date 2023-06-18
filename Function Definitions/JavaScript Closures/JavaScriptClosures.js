@@ -12,3 +12,10 @@ function myFunction() {
   return a * a;
 }
 console.log(myFunction());
+
+/*
+Variable Lifetime
+Global variables live until the page is discarded, like when you navigate to another page or close the window.
+
+Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.
+*/
