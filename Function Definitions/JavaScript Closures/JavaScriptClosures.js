@@ -72,3 +72,6 @@ const add = (function () {
 add();
 add();
 add();
+/*
+JavaScript Closures one kind of function here has inside a function. and inner function are returned . As returned a function and that function update a value that's why changed value are saved in the js collection. After any time if you call again the innder function that time , it will called from updedted value to.
+*/
