@@ -29,3 +29,19 @@ ul.appendChild(li5);
 
 section.appendChild(ul);
 mainSection.appendChild(section);
+
+//Other way added section that is using HTML
+
+const sectionDress = document.createElement("section");
+sectionDress.innerHTML = `
+                    <h2>The Dress of Bangladesh</h2>
+                        <ul id="dress-list">
+                            <li>Shart</li>
+                            <li>Pant</li>
+                            <li>Lungi</li>
+                            <li>Sari</li>
+                            <li>Panjabi</li>
+                            <li>Orna</li>
+                        </ul>`;
+
+mainSection.appendChild(sectionDress);
