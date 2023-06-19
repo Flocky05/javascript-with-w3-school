@@ -45,3 +45,16 @@ sectionDress.innerHTML = `
                         </ul>`;
 
 mainSection.appendChild(sectionDress);
+
+const sectionLocation = document.createElement("section");
+sectionLocation.innerHTML = `
+<h2>Some location of Bangladesh that you have to visit</h2>
+            <ul>
+                <li>Cox Bazar</li>
+                <li>BandarBan</li>
+                <li>Sentmartin</li>
+                <li>SundarBan</li>
+                <li>Sylhet</li>
+            </ul>
+`;
+mainSection.appendChild(sectionLocation);
