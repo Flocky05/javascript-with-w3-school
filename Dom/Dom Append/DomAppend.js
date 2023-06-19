@@ -22,6 +22,7 @@ li3.innerText = "Kachchi Biryani ";
 ul.appendChild(li3);
 const li4 = document.createElement("li");
 li4.innerText = "Morog Polao";
+li4.style.color = "Blue";
 ul.appendChild(li4);
 const li5 = document.createElement("li");
 li5.innerText = " Routi";
@@ -43,6 +44,11 @@ sectionDress.innerHTML = `
                             <li>Panjabi</li>
                             <li>Orna</li>
                         </ul>`;
+sectionDress.style.color = "red";
+sectionDress.style.border = "20px";
+sectionDress.style.borderRadius = "10px";
+sectionDress.style.padding = "10px";
+sectionDress.style.backgroundColor = "lightblue";
 
 mainSection.appendChild(sectionDress);
 
