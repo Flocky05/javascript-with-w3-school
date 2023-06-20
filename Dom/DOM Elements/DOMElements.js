@@ -14,4 +14,4 @@ The easiest way to find an HTML element in the DOM, is by using the element id.
 
 This example finds the element with id="intro":
 */
-const element = document.getElementById("intro");
+// const element = document.getElementById("intro");
