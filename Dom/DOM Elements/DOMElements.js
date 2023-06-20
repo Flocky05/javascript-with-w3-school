@@ -25,3 +25,10 @@ const makePurple = document.getElementById("clicked-purple");
 makePurple.onclick = function () {
   document.body.style.background = "purple";
 };
+
+// Make Background Pink color using addEventLister('click',functionName)
+const makePink = document.getElementById("make-pink");
+makePink.addEventListener("click", make_pink);
+function make_pink() {
+  document.body.style.background = "pink";
+}
