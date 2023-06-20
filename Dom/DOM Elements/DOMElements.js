@@ -15,3 +15,13 @@ The easiest way to find an HTML element in the DOM, is by using the element id.
 This example finds the element with id="intro":
 */
 // const element = document.getElementById("intro");
+
+// make red background
+function makeRed() {
+  document.body.style.background = "red";
+}
+// make background parpole
+const makePurple = document.getElementById("clicked-purple");
+makePurple.onclick = function () {
+  document.body.style.background = "purple";
+};
