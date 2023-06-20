@@ -7,16 +7,20 @@
     <title>Dom event Overall</title>
 </head>
 <body>
-    <h2>Hi mama whats up</h2>
+    <h2 id="click-for-fun">Hi mama whats up</h2>
     <button onclick="console.log('show some friends Name')">Click me</button>
     <button onclick="document.body.style.background='yellow'">Make Yellow</button>
     <button onclick="makeRed()">Make red </button>
     <button onclick="document.body.style.background='white'">Make Normal</button>
     <button id="clicked-purple">Make purple </button>
     <button id="make-pink">Make pink</button>
+    <button onclick="handleOnclick()">Click and Make fun</button>
     <script src="DOMElements.js"></script>
     <script>
-      
+        function handleOnclick(){
+            const makeFun=document.getElementById('click-for-fun');
+            makeFun.innerHTML="What the hell bro";
+        }
     </script>
 </body>
 </html>
