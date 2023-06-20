@@ -8,14 +8,26 @@
 </head>
 <body>
     <h2>Added comments about us</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus iusto asperiores labore laudantium voluptatibus iure esse saepe vero obcaecati placeat mollitia voluptatem molestias fuga ea amet temporibus, atque repudiandae. Molestias a, delectus facere libero eius natus quos placeat, vel est quisquam laudantium nemo quo repellat repudiandae, necessitatibus autem nobis cum.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusamus quibusdam in obcaecati voluptates dolores autem quam aliquam eum ipsum vero maiores laborum libero voluptate fuga? Dolore natus corrupti eos molestias, numquam, in reprehenderit consequuntur sed aperiam iusto ut libero alias neque illo facilis quidem possimus modi. Dolores, mollitia vel!</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusamus quibusdam in obcaecati voluptates dolores autem quam aliquam eum ipsum vero maiores laborum libero voluptate fuga? Dolore natus corrupti eos molestias, numquam, in reprehenderit consequuntur sed aperiam iusto ut libero alias neque illo facilis quidem possimus modi. Dolores, mollitia vel!</p>
+    <section id="added-section">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus iusto asperiores labore laudantium voluptatibus iure esse saepe vero obcaecati placeat mollitia voluptatem molestias fuga ea amet temporibus, atque repudiandae. Molestias a, delectus facere libero eius natus quos placeat, vel est quisquam laudantium nemo quo repellat repudiandae, necessitatibus autem nobis cum.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusamus quibusdam in obcaecati voluptates dolores autem quam aliquam eum ipsum vero maiores laborum libero voluptate fuga? Dolore natus corrupti eos molestias, numquam, in reprehenderit consequuntur sed aperiam iusto ut libero alias neque illo facilis quidem possimus modi. Dolores, mollitia vel!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusamus quibusdam in obcaecati voluptates dolores autem quam aliquam eum ipsum vero maiores laborum libero voluptate fuga? Dolore natus corrupti eos molestias, numquam, in reprehenderit consequuntur sed aperiam iusto ut libero alias neque illo facilis quidem possimus modi. Dolores, mollitia vel!</p>
+    </section>
 
     <br /><br /><br />
-    <textarea name="" id="" cols="100" rows="5"></textarea>
+    <textarea name="" id="textBox" cols="100" rows="5"></textarea>
     <br /> <br />
-    <button>post</button>
+    <button id="post-text">post</button>
 
+    <script>
+        document.getElementById('post-text').addEventListener('click',function(){
+            const textbox =document.getElementById('textBox').value;
+            const added =document.getElementById('added-section');
+            const p= document.createElement("p");
+            p.innerText=textbox;
+            added.appendChild(p);
+            textBox.value=" ";
+        })
+    </script>
 </body>
 </html>
