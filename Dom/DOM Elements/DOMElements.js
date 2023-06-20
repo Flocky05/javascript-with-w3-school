@@ -31,3 +31,22 @@ const makePink = document.getElementById("make-pink");
 makePink.addEventListener("click", function make_pink() {
   document.body.style.background = "pink";
 });
+
+//Make caption change using handleOnClick() funcition
+function handleOnclick() {
+  const makeFun = document.getElementById("click-for-fun");
+  makeFun.innerHTML = "What the hell bro";
+}
+// Back to the before Caption
+function stopFun() {
+  const StopFun = document.getElementById("click-for-fun");
+  StopFun.innerText = "Hi mama whats up";
+}
+
+//dom input text
+document.getElementById("input-click").addEventListener("click", function () {
+  const inputtext = document.getElementById("inputText").value;
+  const p = document.getElementById("name");
+  p.innerText = inputtext;
+  inputtext.value = " ";
+});
