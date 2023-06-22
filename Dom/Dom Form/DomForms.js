@@ -11,3 +11,9 @@ function validateForm() {
     return false;
   }
 }
+
+/*
+JavaScript Can Validate Numeric Input
+JavaScript is often used to validate numeric input:
+ here has a html file that name is domform.html
+*/
