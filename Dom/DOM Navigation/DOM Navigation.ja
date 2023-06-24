@@ -48,3 +48,14 @@ There are two special properties that allow access to the full document:
 document.body - The body of the document
 document.documentElement - The full document
 */
+
+/*
+The nodeName Property
+The nodeName property specifies the name of a node.
+
+nodeName is read-only
+nodeName of an element node is the same as the tag name
+nodeName of an attribute node is the attribute name
+nodeName of a text node is always #text
+nodeName of the document node is always #document
+*/
