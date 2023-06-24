@@ -21,3 +21,16 @@ Every node has exactly one parent, except the root (which has no parent)
 A node can have a number of children
 Siblings (brothers or sisters) are nodes with the same parent
 */
+
+/*
+Child Nodes and Node Values
+A common error in DOM processing is to expect an element node to contain text.
+
+<title id="demo">DOM Tutorial</title>
+The element node <title> (in the example above) does not contain text.
+
+It contains a text node with the value "DOM Tutorial".
+
+The value of the text node can be accessed by the node's innerHTML property:
+*/
+
