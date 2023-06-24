@@ -34,3 +34,9 @@ It contains a text node with the value "DOM Tutorial".
 The value of the text node can be accessed by the node's innerHTML property:
 */
 
+/*
+InnerHTML
+In this tutorial we use the innerHTML property to retrieve the content of an HTML element.
+
+However, learning the other methods above is useful for understanding the tree structure and the navigation of the DOM.
+*
