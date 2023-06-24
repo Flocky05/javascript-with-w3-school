@@ -24,3 +24,26 @@ This code appends the new element to the existing element:
 
 element.appendChild(para);
 */
+
+/*
+Creating new HTML Elements - insertBefore()
+The appendChild() method in the previous example, appended the new element as the last child of the parent.
+
+If you don't want that you can use the insertBefore() method:
+*/
+{
+  /* <div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+const element = document.getElementById("div1");
+const child = document.getElementById("p1");
+element.insertBefore(para, child);
+</script> */
+}
