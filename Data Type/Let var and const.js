@@ -36,3 +36,22 @@ console.log(greeting1); // hello is not defined
 Hoisting of let
 Just like  var, let declarations are hoisted to the top. Unlike var which is initialized as undefined, the let keyword is not initialized. So if you try to use a let variable before declaration, you'll get a Reference Error.
 */
+
+/*
+Const
+Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.
+
+const declarations are block scoped
+Like let declarations, const declarations can only be accessed within the block they were declared.
+
+const cannot be updated or re-declared
+This means that the value of a variable declared with const remains the same within its scope. It cannot be updated or re-declared. So if we declare a variable with const, we can neither do this:
+*/
+const x = 10;
+x = 12; //we can't decler this couse its not a rules
+// error:  Assignment to constant variable.
+
+/*
+Hoisting of const
+Just like let, const declarations are hoisted to the top but are not initialized.
+*/
