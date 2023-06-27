@@ -122,3 +122,14 @@ Display the color depth of the screen in bits:
 document.getElementById("demo").innerHTML =
 "Screen Color Depth: " + screen.colorDepth;
 */
+
+/*
+Window Screen Pixel Depth
+The screen.pixelDepth property returns the pixel depth of the screen.
+
+Example
+Display the pixel depth of the screen in bits:
+
+document.getElementById("demo").innerHTML =
+"Screen Pixel Depth: " + screen.pixelDepth;
+*/
