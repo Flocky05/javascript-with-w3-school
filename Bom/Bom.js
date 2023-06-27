@@ -33,3 +33,13 @@ window.innerHeight - the inner height of the browser window (in pixels)
 window.innerWidth - the inner width of the browser window (in pixels)
 The browser window (the browser viewport) is NOT including toolbars and scrollbars.
 */
+
+/*
+Other Window Methods
+Some other methods:
+
+window.open() - open a new window
+window.close() - close the current window
+window.moveTo() - move the current window
+window.resizeTo() - resize the current window
+*/
