@@ -43,3 +43,18 @@ window.close() - close the current window
 window.moveTo() - move the current window
 window.resizeTo() - resize the current window
 */
+
+/*
+Window Screen
+The window.screen object can be written without the window prefix.
+
+Properties:
+
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
+
+*/
