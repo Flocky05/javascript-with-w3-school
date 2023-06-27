@@ -81,3 +81,14 @@ Display the height of the screen in pixels:
 document.getElementById("demo").innerHTML =
 "Screen Height: " + screen.height;
 */
+
+/*
+Window Screen Available Width
+The screen.availWidth property returns the width of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
+
+Example
+Display the available width of the screen in pixels:
+
+document.getElementById("demo").innerHTML =
+"Available Screen Width: " + screen.availWidth;
+*/
