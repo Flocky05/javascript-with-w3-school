@@ -103,3 +103,22 @@ Display the available height of the screen in pixels:
 document.getElementById("demo").innerHTML =
 "Available Screen Height: " + screen.availHeight;
 */
+
+/*
+Window Screen Color Depth
+The screen.colorDepth property returns the number of bits used to display one color.
+
+All modern computers use 24 bit or 32 bit hardware for color resolution:
+
+24 bits =      16,777,216 different "True Colors"
+32 bits = 4,294,967,296 different "Deep Colors"
+Older computers used 16 bits: 65,536 different "High Colors" resolution.
+
+Very old computers, and old cell phones used 8 bits: 256 different "VGA colors".
+
+Example
+Display the color depth of the screen in bits:
+
+document.getElementById("demo").innerHTML =
+"Screen Color Depth: " + screen.colorDepth;
+*/
