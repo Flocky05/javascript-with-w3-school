@@ -22,3 +22,14 @@ is the same as:
 
 document.getElementById("header");
 */
+
+/*
+Window Size
+Two properties can be used to determine the size of the browser window.
+
+Both properties return the sizes in pixels:
+
+window.innerHeight - the inner height of the browser window (in pixels)
+window.innerWidth - the inner width of the browser window (in pixels)
+The browser window (the browser viewport) is NOT including toolbars and scrollbars.
+*/
