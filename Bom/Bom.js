@@ -69,3 +69,15 @@ Display the width of the screen in pixels:
 document.getElementById("demo").innerHTML =
 "Screen Width: " + screen.width;
 */
+
+/*
+
+Window Screen Height
+The screen.height property returns the height of the visitor's screen in pixels.
+
+Example
+Display the height of the screen in pixels:
+
+document.getElementById("demo").innerHTML =
+"Screen Height: " + screen.height;
+*/
