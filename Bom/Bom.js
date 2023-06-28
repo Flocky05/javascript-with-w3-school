@@ -155,3 +155,16 @@ The window.location.href property returns the URL of the current page.
 */
 document.getElementById("demo").innerHTML =
   "Page location is " + window.location.href;
+4; /*
+Window Location Hostname
+The window.location.hostname property returns the name of the internet host (of the current page).
+*/
+document.getElementById("demo").innerHTML =
+  "Page hostname is " + window.location.hostname;
+
+/*
+  Window Location Pathname
+The window.location.pathname property returns the pathname of the current page.
+*/
+document.getElementById("demo").innerHTML =
+  "Page path is " + window.location.pathname;
