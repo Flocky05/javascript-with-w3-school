@@ -132,4 +132,7 @@ Display the pixel depth of the screen in bits:
 
 document.getElementById("demo").innerHTML =
 "Screen Pixel Depth: " + screen.pixelDepth;
+// 
+/*
+Added some information
 */
