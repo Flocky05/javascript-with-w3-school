@@ -149,3 +149,9 @@ window.location.pathname returns the path and filename of the current page
 window.location.protocol returns the web protocol used (http: or https:)
 window.location.assign() loads a new document
 */
+
+/*Window Location Href
+The window.location.href property returns the URL of the current page.
+*/
+document.getElementById("demo").innerHTML =
+  "Page location is " + window.location.href;
