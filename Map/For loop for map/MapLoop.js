@@ -9,9 +9,14 @@ for (const number of numbers) {
 
 function getTriple(numbers) {
   for (const number of numbers) {
-    const triple = number * 3;
+    const triple = tripleIt(number);
     output1.push(triple);
   }
   return output1;
 }
+//use arrow function that is called inside of the getTriple()
+const tripleIt = (num) => num * 3;
 console.log(getTriple(numbers));
+
+const tripleGetMap = numbers.map(tripleIt);
+console.log(tripleGetMap);
