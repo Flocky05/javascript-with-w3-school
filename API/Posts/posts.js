@@ -66,3 +66,9 @@ function patchApost() {
     .then((response) => response.json())
     .then((json) => console.log(json));
 }
+
+function deleteAmethod() {
+  fetch("https://jsonplaceholder.typicode.com/posts/1", {
+    method: "DELETE",
+  });
+}
