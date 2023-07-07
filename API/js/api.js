@@ -9,12 +9,20 @@ function loadData2() {
   const url = "https://jsonplaceholder.typicode.com/todos";
   fetch(url)
     .then((res) => res.json())
-    .then((data) => console.log(data));
+    .then((data) => displayTypicode(data));
 }
 
 function displayUsers(data) {
+  const ul = document.getElementById("user-list");
   for (const user of data) {
-    console.log(user.name);
-    console.log(user.phone);
+    const li = document.createElement("li");
+    li.innerText = user.name;
+    ul.appendChild(li);
+  }
+}
+
+function displayTypicode(data) {
+  for (const typicode of data) {
+    console.log(typicode.title);
   }
 }
