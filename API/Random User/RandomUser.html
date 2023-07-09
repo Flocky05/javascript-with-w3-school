@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+    }
+    .half {
+      grid-column: 1fr 1fr;
+      height: 100%;
+    }
+    .black {
+      background-color: black;
+    }
+    .white {
+      background-color: white;
+    }
+    #half-black{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+  </style>
+<body>
+    <div class="container">
+        <div class="half black" id="half-black">
+            <h2>RANDOM USER GENERATOR</h2>
+        </div>
+        <div class="half white">
+            
+        </div>
+      </div>
+    <!-- <section>
+
+        <div>
+            <button onclick="loadUserFetch()">Click Here</button>
+        </div>
+    </section> -->
+    <script src="js/RandomUser.js"></script>
+</body>
+</html>
