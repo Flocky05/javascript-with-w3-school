@@ -7,7 +7,7 @@ function loadCountries() {
 const displayCountries = (countries) => {
   const countryContainer = document.getElementById("countries-container");
   for (const country of countries) {
-    console.log(country);
+    //console.log(country);
     const countryInfo = document.createElement("div");
     countryInfo.classList.add("country");
     countryInfo.innerHTML = `
@@ -20,7 +20,24 @@ const displayCountries = (countries) => {
     countryContainer.appendChild(countryInfo);
   }
 };
+loadCountries();
 
 const loadCountryDetails = (code) => {
-  console.log("Get country get deatail", code);
+  //https://restcountries.com/v3.1/alpha/{code}
+  url = `https://restcountries.com/v3.1/alpha/${code}`;
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => countryDetal(data[0]));
+};
+
+const countryDetal = (country) => {
+  console.log(country.languages);
+  const detailsCountry = document.getElementById("country-details");
+  detailsCountry.innerHTML = `
+  <div>
+                flge: <img src="${country.flags.png}" alt="">
+            </div>
+            <h5>Country population:${country.population}</h5>
+            <h5>Country startOfWeek: ${country.startOfWeek}</h5>
+  `;
 };
