@@ -60,3 +60,8 @@ if (numberBanana != -1) {
   fruits[numberBanana] = "mango";
 }
 console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+fruits.push("Watermelon");
+console.log(fruits);
