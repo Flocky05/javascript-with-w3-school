@@ -24,3 +24,13 @@ let bangla = 99.5;
 let avg;
 avg = (math + bio + chem + phy + bangla) / 5;
 console.log(avg.toFixed(2));
+
+/* John’s teacher gave him two variables. Each variable contains a string. John’s teacher asked him to
+combine these two strings and print them in one line. Help John write the program.
+Input:
+The first and the second lines of the input contain the strings. */
+
+let line1 = "I am going to be ";
+let line2 = "an awesome web developer";
+const lineAdd = line1 + line2;
+console.log(lineAdd);
