@@ -65,3 +65,27 @@ fruits.pop();
 console.log(fruits);
 fruits.push("Watermelon");
 console.log(fruits);
+
+/* 
+You and your friends Tom, Jane, Peter and John got their final exam results. Your total
+score is 85, Tom’s total score is 66, Jane’s total score is 95, Peter’s total score is 56
+and John’s total score is 40. The grading chart is
+80 or above A grade
+60 or above B grade
+50 or above C grade
+40 or above D grade
+39 or less => F grade
+*/
+let numbers = 56;
+
+if (numbers > 80) {
+  console.log("You got A grade");
+} else if (numbers > 60) {
+  console.log("You got B grade");
+} else if (numbers > 50) {
+  console.log("You got C grade");
+} else if (numbers > 40) {
+  console.log("You got D grade");
+} else if (numbers <= 39) {
+  console.log("Sorry you are failed");
+}
