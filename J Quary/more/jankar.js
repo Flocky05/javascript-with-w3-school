@@ -89,3 +89,18 @@ if (numbers > 80) {
 } else if (numbers <= 39) {
   console.log("Sorry you are failed");
 }
+
+/* 1. You are given three numbers 13, 79, and 45. Write a program that will print the
+largest number using if-else. */
+
+let numbers1 = 13;
+let numbers2 = 79;
+let numbers3 = 45;
+
+if (numbers1 > numbers2 && numbers1 > numbers3) {
+  console.log("Large number is", numbers1);
+} else if (numbers2 > numbers1 && numbers2 > numbers3) {
+  console.log("Large number is", numbers2);
+} else {
+  console.log("The large number is", numbers3);
+}
