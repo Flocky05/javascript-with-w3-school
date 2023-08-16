@@ -120,3 +120,18 @@ if (side1 == side2 || side2 == side3 || side1 == side3) {
 }
 
 /*  added more information */
+/* To understand this example, you should have the knowledge of the following JavaScript programming topics:
+
+JavaScript Variables and Constants
+JavaScript Operators */
+// program to convert celsius to fahrenheit
+// ask the celsius value to the user
+const celsius = prompt("Enter a celsius value: ");
+
+// calculate fahrenheit
+const fahrenheit = celsius * 1.8 + 32;
+
+// display the result
+console.log(
+  `${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`
+);
