@@ -118,20 +118,19 @@ if (side1 == side2 || side2 == side3 || side1 == side3) {
 } else {
   console.log("No, This triangle is not Isosceles");
 }
+/* জাভাস্ক্রিপ্ট কি জিনিস এইটা কি জানো? */
+/* JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data. */
 
-/*  added more information */
-/* To understand this example, you should have the knowledge of the following JavaScript programming topics:
+/* প্রকারভেদ
+জাভাস্ক্রিপ্টে 2 প্রকার তথ্য বা data রয়েছে, এগুলো হল নিম্নরূপ।
 
-JavaScript Variables and Constants
-JavaScript Operators */
-// program to convert celsius to fahrenheit
-// ask the celsius value to the user
-const celsius = prompt("Enter a celsius value: ");
+Primitive ডাটা টাইপ এবং
+Non-primitive বা reference ডাটা টাইপ
+Primitive ডাটা টাইপ
+জাভাস্ক্রিপ্টে 5 প্রকার Primitive ডাটা টাইপ রয়েছে। এগুলো হল নিম্নরূপ -
 
-// calculate fahrenheit
-const fahrenheit = celsius * 1.8 + 32;
-
-// display the result
-console.log(
-  `${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`
-);
+String -
+Number - গাণিতিক বা numeric মান নির্ধারণ করে,
+Undefined - Undefined মান নির্ধারণ করে,
+Boolean - কেবল মাত্র দুইটি মান বা value ব্যবহার করে অর্থাৎ "true" এবং "false" ব্যবহার করে মান নির্ধারণ করে,
+Null - শূন্য বা null মান নির্ধারণ করে, */
