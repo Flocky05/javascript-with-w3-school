@@ -23,3 +23,30 @@ Non-primitive বা reference ডাটা টাইপ
 Object -
 Array - একই রকম মান বা value গুলোর গুচ্ছ বা group তৈরি করে,
 RegExp - regular expression গুলো তৈরি করে,*/
+
+/*  array এর মধ্যে কয়টা উপাদান (element) আছে সেটা কিভাবে বের করে  */
+const array = [1, 2, 3, 4, 5, 67, 6];
+console.log(array.length);
+
+/* array এর উপাদান গুলা এর পজিশন ( index) কিভাবে কাজ করে। কত দিয়ে শুরু হয়। এবং মান কিভাবে চেইঞ্জ হয়।  */
+console.log(array.indexOf(47));
+
+/* starting number is O and increasing one by one , if any element is not found then its shows -1 */
+
+/* আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও। */
+
+for (let i = 0; i < 39; i++) {
+  console.log("আসকে আমার মন ভালো নেই");
+}
+console.log("................................................");
+let j = 0;
+while (j <= 39) {
+  console.log("আসকে আমার মন ভালো নেই");
+  j++;
+}
+
+/* একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও  */
+
+for (let num = 58; num <= 98; num++) {
+  console.log(num);
+}
