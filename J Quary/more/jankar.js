@@ -104,3 +104,17 @@ if (numbers1 > numbers2 && numbers1 > numbers3) {
 } else {
   console.log("The large number is", numbers3);
 }
+
+/* You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
+triangle is Isosceles or not using if-else.
+Isosceles => two sides are equal
+*/
+
+let side1 = 9;
+let side2 = 7;
+let side3 = 7;
+if (side1 == side2 || side2 == side3 || side1 == side3) {
+  console.log("Yes, This triangle is Isosceles");
+} else {
+  console.log("No, This triangle is not Isosceles");
+}
