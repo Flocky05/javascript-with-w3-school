@@ -50,3 +50,11 @@ while (j <= 39) {
 for (let num = 58; num <= 98; num++) {
   console.log(num);
 }
+
+/* একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও  */
+
+for (even = 412; even <= 456; even++) {
+  if (even % 2 == 0) {
+    console.log(even);
+  }
+}
