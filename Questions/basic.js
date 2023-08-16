@@ -58,3 +58,13 @@ for (even = 412; even <= 456; even++) {
     console.log(even);
   }
 }
+
+/* একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও  */
+
+for (let numbreak = 30; numbreak <= 86; numbreak++) {
+  if (numbreak == 44) {
+    break;
+  } else {
+    console.log(numbreak);
+  }
+}
