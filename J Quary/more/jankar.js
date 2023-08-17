@@ -65,6 +65,8 @@ fruits.pop();
 console.log(fruits);
 fruits.push("Watermelon");
 console.log(fruits);
+fruits.push(100);
+console.log(fruits);
 
 /* 
 You and your friends Tom, Jane, Peter and John got their final exam results. Your total

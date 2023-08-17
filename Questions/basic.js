@@ -68,3 +68,14 @@ for (let numbreak = 30; numbreak <= 86; numbreak++) {
     console.log(numbreak);
   }
 }
+
+/* তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা।  */
+
+const books = [120, 125, 652, 62, 985, 3, 266, 652, 326, 123];
+let newBooks = [];
+for (let m = 0; m < books.length; m++) {
+  if (books[m] < 200) {
+    newBooks.push(books[m]);
+  }
+}
+console.log(newBooks);
