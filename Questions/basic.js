@@ -171,3 +171,34 @@ const numberOparation = () => {
 console.log(numberOparation());
 console.log(sum);
 console.log(sum / numbers.length);
+
+/* Write an arrow function where it will do the following:
+a) It will take two array inputs
+b) Combine the two arrays and assign them in a new array
+c) Find the maximum number from the new array and return the
+result
+Print the result. */
+
+const array1 = [1, 3, 4, 5, 7, 9, 11, 13, 34, 12];
+const array2 = [2, 4, 8, 6, 4, 0, 8, 65, 53, 23];
+const combineArray = [];
+let max = 0;
+const ComboArray = () => {
+  for (let i = 0; i <= array1.length - 1; i++) {
+    combineArray.push(array1[i]);
+  }
+  for (let j = 0; j <= array2.length - 1; j++) {
+    combineArray.push(array2[j]);
+  }
+  for (let k = 0; k <= combineArray.length - 1; k++) {
+    if (combineArray[k] > max) {
+      max = combineArray[k];
+    } else {
+      max = max;
+    }
+  }
+  return max;
+};
+
+console.log("The bigest Number is ", ComboArray());
+console.log("The new array is ", combineArray);
