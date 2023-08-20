@@ -97,3 +97,15 @@ const mul = (a, b, c) => {
 };
 const result = mul(1, 2, 3);
 console.log(result);
+
+/* Write the following sentence in three lines and print the result:
+I am a web developer. I love to code. I love to eat biryani. */
+
+const line = () => {
+  const a = "I am a web developer.";
+  const b = "I love to code.";
+  const c = " I love to eat biryani.";
+  return a + " " + b + " " + c;
+};
+
+console.log(line());
