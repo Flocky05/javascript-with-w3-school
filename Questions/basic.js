@@ -79,3 +79,21 @@ for (let m = 0; m < books.length; m++) {
   }
 }
 console.log(newBooks);
+
+/* Write an arrow function that will take 3 parameters, will multiply
+the parameters and will return the result. */
+
+/* function mul(a, b, c) {
+  const total = a * b * c;
+  return total;
+}
+const result = mul(2, 3, 5);
+console.log(result);
+ */
+
+const mul = (a, b, c) => {
+  const total = a * b * c;
+  return total;
+};
+const result = mul(1, 2, 3);
+console.log(result);
