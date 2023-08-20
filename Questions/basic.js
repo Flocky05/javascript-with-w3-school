@@ -157,12 +157,17 @@ Print the result. */
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const newNumbers = [];
+let sum = 0;
 
 const numberOparation = () => {
   for (let i = 0; i < numbers.length; i++) {
-    newNumbers.push(numbers[i] * numbers[i]);
+    const sqrNumber = numbers[i] * numbers[i];
+    sum = sum + sqrNumber;
+    newNumbers.push(sqrNumber);
   }
   return newNumbers;
 };
 
 console.log(numberOparation());
+console.log(sum);
+console.log(sum / numbers.length);
