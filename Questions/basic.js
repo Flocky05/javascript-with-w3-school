@@ -148,3 +148,21 @@ const allFriends = () => {
 };
 console.log(allFriends());
 console.log(evenName);
+
+/* Write an arrow function where it will do the following:
+a) Square each array element
+b) Calculate the sum of the squared elements
+c) Return the average of the sum of the squared elements
+Print the result. */
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const newNumbers = [];
+
+const numberOparation = () => {
+  for (let i = 0; i < numbers.length; i++) {
+    newNumbers.push(numbers[i] * numbers[i]);
+  }
+  return newNumbers;
+};
+
+console.log(numberOparation());
