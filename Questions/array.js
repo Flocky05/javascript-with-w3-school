@@ -32,3 +32,11 @@ function avg(array) {
 }
 avg([1, 2, 3, 4, 5, 6]);
 console.log(avgN);
+
+/* ৪. একটা ফাংশন লিখো। যেটা ইনপুট প্যারামিটার হিসেবে একটা আয়তক্ষেত্রের দৈর্ঘ্য আর উচ্চতাকে নিবে। তারপর সেই আয়তক্ষেত্র এর area (আয়তন) কে রেজাল্ট হিসেবে রিটার্ন করবে।  */
+let area = 0;
+function RectangularArea(length, width) {
+  area = length * width;
+  return area;
+}
+console.log("The area of Rectangular is ", RectangularArea(2, 5));
