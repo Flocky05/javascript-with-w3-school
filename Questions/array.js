@@ -40,3 +40,29 @@ function RectangularArea(length, width) {
   return area;
 }
 console.log("The area of Rectangular is ", RectangularArea(2, 5));
+
+/* ৫. (ট্রিকি) কোন একটা array এর মধ্যে অনেকগুলা সংখ্যা আছে। সেই সংখ্যাগুলো থেকে second largest সংখ্যা বের করার একটা প্রোগ্রাম লিখো। দরকার হলে গুগলে সার্চ দাও। তারপর সার্চ রেজাল্ট দেখে বুঝে বুঝে করার চেষ্টা করো।  */
+let array3 = [23, 25, 44, 56, 76, 78, 34, 32];
+let array4 = [];
+let max = 0;
+function secondLargeNumber(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (max < array[i]) {
+      max = array[i];
+    }
+  }
+  for (let i = 0; i < array.length; i++) {
+    if (max != array[i]) {
+      array4.push(array[i]);
+    }
+  }
+  max = 0;
+  for (let i = 0; i < array4.length; i++) {
+    if (max < array4[i]) {
+      max = array4[i];
+    }
+  }
+  return max;
+}
+
+console.log("The second max number is ", secondLargeNumber(array3));
