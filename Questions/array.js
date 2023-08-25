@@ -66,3 +66,12 @@ function secondLargeNumber(array) {
 }
 
 console.log("The second max number is ", secondLargeNumber(array3));
+
+/* ১. একটা ফাংশন লিখো। সেটার মধ্যে তিনটা প্যারামিটার নিবে। এই তিনটা প্যারামিটার হবে কোন একটা ত্রিভুজের তিনটা বাহু এর দৈর্য্য। এখন তোমার কাজ হচ্ছে ফাংশনের ভিতরে কিছু হিসাব নিকাশ করে ত্রিভুজের area (আয়তন) বের করা। কোন একটা ত্রিভুজের তিনটা বাহুর দৈর্য্য দেয়া থাকলে সেটা থেকে কিভাবে আয়তন বের করতে হয় সেই ফর্মুলা গুগল থেকে খুঁজে বের করো।  */
+
+function areaTriagnle(x, y, z) {
+  const s = (x + y + z) / 2;
+  const area = Math.sqrt(s * (s - x) * (s - y) * (s - z));
+  return area;
+}
+console.log("The area of triangle is", areaTriagnle(3, 4, 5));
