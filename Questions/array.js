@@ -75,3 +75,22 @@ function areaTriagnle(x, y, z) {
   return area;
 }
 console.log("The area of triangle is", areaTriagnle(3, 4, 5));
+
+/* ২. কোন একটা সংখ্যা প্রাইম সংখ্যা (prime number) কিনা। সেটা চেক করার একটা ফাংশন লিখো।  */
+
+function test_prime(n) {
+  if (n === 1) {
+    return false;
+  } else if (n === 2) {
+    return true;
+  } else {
+    for (var x = 2; x < n; x++) {
+      if (n % x === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
+
+console.log("The number is ", test_prime(25));
