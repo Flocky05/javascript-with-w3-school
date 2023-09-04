@@ -59,3 +59,12 @@ function oddOrEven(input) {
   }
 }
 console.log(oddOrEven(24));
+
+/* কোন একটা array এর মধ্যে অনেকগুলা সংখ্যা আছে। সেই সংখ্যাগুলো থেকে second largest সংখ্যা বের করার একটা প্রোগ্রাম লিখো। দরকার হলে গুগলে সার্চ দাও। তারপর সার্চ রেজাল্ট দেখে বুঝে বুঝে করার চেষ্টা করো।  */
+
+let numbers = [2, 3, 24, 78, 65, 45, 79, 76, 45, 88];
+function secondLargeNumber(numbers) {
+  let newNumbers = numbers.sort((a, b) => a - b);
+  return newNumbers[newNumbers.length - 2];
+}
+console.log(secondLargeNumber(numbers));
