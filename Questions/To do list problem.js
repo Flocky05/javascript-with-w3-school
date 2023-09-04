@@ -23,3 +23,18 @@ function findLeapYear(years) {
   return leapYear;
 }
 console.log(findLeapYear(years));
+
+/* Write a function findOddSum() that will take the array [5, 7, 8, 10, 45, 30]
+as the input parameter and will return the sum of the odd numbers. */
+
+let array = [5, 7, 8, 10, 45, 30];
+let sum = 0;
+function findOddSum() {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 != 0) {
+      sum = sum + array[i];
+    }
+  }
+  return sum;
+}
+console.log(findOddSum(array));
