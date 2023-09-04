@@ -29,7 +29,7 @@ as the input parameter and will return the sum of the odd numbers. */
 
 let array = [5, 7, 8, 10, 45, 30];
 let sum = 0;
-function findOddSum() {
+function findOddSum(array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] % 2 != 0) {
       sum = sum + array[i];
@@ -38,3 +38,13 @@ function findOddSum() {
   return sum;
 }
 console.log(findOddSum(array));
+
+/* ১. leapYear() নামে ফাংশন লিখো এবং নেক্সট ইয়ার অর্থাৎ ২০২৩ কি leap year নাকি সেটা চেক করো। Leap year হলে ফাংশন true রিটার্ন করবে আর leap year না হলে false রিটার্ন করবে। */
+
+function NewleapYear(year) {
+  let newYear = year + 1;
+  if (newYear % 400 == 0 || (newYear % 100 != 0 && newYear % 4 == 0)) {
+    return true;
+  } else return false;
+}
+console.log(NewleapYear(2024));
