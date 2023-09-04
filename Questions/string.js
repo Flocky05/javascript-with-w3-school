@@ -26,3 +26,18 @@ for (let i = 0; i < friends.length; i++) {
   let FullName = FristLetter + friend.slice(1, friend.length);
   console.log(FullName);
 }
+
+/* you got an array , that array has some sentence, you have to remove a spacific word from the sentece */
+let sentences = [
+  "i  know you",
+  "you do the work",
+  "do not do that",
+  "How are you man, do not go out",
+];
+let newSentences = [];
+for (let i = 0; i < sentences.length; i++) {
+  if (sentences[i].indexOf("not") !== -1) {
+    newSentences.push(sentences[i]);
+  }
+}
+console.log(newSentences);
