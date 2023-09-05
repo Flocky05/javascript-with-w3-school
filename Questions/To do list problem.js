@@ -68,3 +68,21 @@ function secondLargeNumber(numbers) {
   return newNumbers[newNumbers.length - 2];
 }
 console.log(secondLargeNumber(numbers));
+
+/* ২. কোন একটা সংখ্যা প্রাইম সংখ্যা (prime number) কিনা। সেটা চেক করার একটা ফাংশন লিখো।  */
+
+function isPrimeNumber(number) {
+  if (number == 1) return false;
+  if (number == 2) return true;
+  if (number == 3) return true;
+  if (number != 2 && number % 2 == 0) return false;
+  else {
+    for (let i = 3; i < number; i += 2) {
+      if (number % i == 0) {
+        return false;
+      } else return true;
+    }
+  }
+}
+
+console.log(isPrimeNumber(33));
