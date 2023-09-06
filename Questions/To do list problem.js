@@ -86,3 +86,6 @@ function isPrimeNumber(number) {
 }
 
 console.log(isPrimeNumber(33));
+
+let name = "what the hell bro?";
+console.log(name.splice());
